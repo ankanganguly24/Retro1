@@ -1,3 +1,8 @@
+@font-face {
+    font-family: domain;
+    src: url(./domain.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -48,4 +53,130 @@ html, body{
     text-align: right;
 }
 
-/*navbar ends/
+/*navbar ends*/
+
+#ele{
+    
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#ele1{
+    width: 30%;
+    height: 100%;
+    
+}
+
+#ele2{
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 20px 60px;
+    text-align: center;
+    
+}
+
+#ele3{
+width: 30%;
+    height: 100%;
+    
+}
+
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+} 
+
+#ele1 #image-div {
+    height: 70%;
+    overflow: hidden;
+    width:100%;
+}
+
+#ele3 #image-div {
+    height: 70%;
+    overflow: hidden;
+    width:100%;
+}
+
+#image-div:hover img{
+    scale: 1.4;
+}
+
+#ele1 h4 span{
+    background-color: brown;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#ele1 h4{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+
+#ele1 p{
+    font-size: 23px;
+    font-family: domain;
+    font-weight: 100;
+    color: rgb(120, 114, 114);
+}
+
+#ele3 h4 span{
+    background-color: brown;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#ele3 h4{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+
+#ele3 p{
+    font-size: 23px;
+    font-family: domain;
+    font-weight: 100;
+    color: rgb(120, 114, 114);
+}
+
+#elem2 h2{
+    font-family: canopee;
+    font-size: 70px;
+    font-weight: 100;
+
+}
+
+#elem2 h3{
+    font-family: domain;
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(120, 114, 114);
+
+}
+
+#elem2 h6{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(120, 114, 114);
+
+}
