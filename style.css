@@ -15,11 +15,17 @@ html, body{
 }
 
 #page1{
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
     background-color: #C4BCB3;
     position: relative;
+    overflow: hidden;
 
+}
+
+#main {
+    background-color: #C4BCB3;
+    overflow-x: hidden;
 }
  
 
@@ -158,25 +164,113 @@ width: 30%;
     color: rgb(120, 114, 114);
 }
 
-#elem2 h2{
+#ele2 h2{
     font-family: canopee;
     font-size: 70px;
     font-weight: 100;
 
 }
 
-#elem2 h3{
+#ele2 h3{
     font-family: domain;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 100;
     color: rgb(120, 114, 114);
+    margin-top: 20px;
+    margin-bottom:20px;
 
 }
 
-#elem2 h6{
+#ele2 h6{
     font-family: domain;
     font-size: 20px;
     font-weight: 100;
     color: rgb(120, 114, 114);
 
+}
+
+#page1 h1{
+    font-size: 400px;
+    letter-spacing: 10px;
+    font-family: canopee;
+    font-weight: 100;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    line-height: 600px;
+    width: 94%;
+    margin-left: 2%;
+    padding-left: 20%;
+    height: 550px;
+}
+
+#page2 {
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page2-left{
+height: 100%;
+padding-right: 40px;
+width:35%;
+border-right: 1px solid black;
+
+}
+
+#page2-left h2{
+    font-size:150px;
+    font-family: canopee;
+    text-align: center;
+    line-height: 150px;
+    font-weight: 100;
+    padding: 90px 40px;
+}
+
+#page2-left h2 span{
+    font-size: 180px;
+    font-weight: 900;
+}
+
+#page2-left img {
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 30px;
+    
+}
+
+#page2-left p {
+    font-size: 30px;
+    font-family: domain;
+    margin-top: 30px;
+    color: #1C1C19;
+    padding-left: 30px;
+}
+
+#page2-right{
+height: 100%;
+width: 60%;
+padding: 0 60px;
+
+}
+
+#page2-right img {
+    padding-top: 40px;
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 30px;
+    
+}
+
+#page2-right h1{
+    margin-top: 10px;
+    font-family: canopee;
+    font-size: 110px;
+    font-weight: 120px;
+    letter-spacing: -2%;
+    color:#1C1C19;
 }
